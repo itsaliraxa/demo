@@ -1,0 +1,76 @@
+{
+  "expo": {
+    "name": "Clinical Study Pal",
+    "slug": "clinical-study-pal",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "jsEngine": "hermes",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./src/assets/images/splash_bg.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#27272a"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "usesIcloudStorage": true,
+      "bundleIdentifier": "com.clinicalstudypal.clinicalstudypal",
+      "buildNumber": "1.0.0",
+      "entitlements": {
+        "com.apple.developer.networking.wifi-info": true
+      },
+      "googleServicesFile": "./GoogleService-Info.plist"
+    },
+    "android": {
+      "versionCode": 1,
+      "package": "com.clinicalstudypal.clinicalstudypal",
+      "googleServicesFile": "./google-services.json"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-document-picker",
+        {
+          "iCloudContainerEnvironment": "Production"
+        }
+      ],
+      "@react-native-firebase/app",
+      "@react-native-firebase/perf",
+      "@react-native-firebase/crashlytics",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 31,
+            "targetSdkVersion": 31,
+            "buildToolsVersion": "31.0.0"
+          },
+          "ios": {
+            "deploymentTarget": "13.0",
+            "useFrameworks": "static"
+          }
+        }
+      ]
+      // [
+      //   "expo-build-properties",
+      //   {
+      //     "ios": {
+      //       "useFrameworks": "dynamic"
+      //     }
+      //   }
+      // ]
+    ],
+    "description": "Delve Health's Clinical Study App for tracking clinical studies.",
+    "extra": {
+      "eas": {
+        "projectId": "1278834b-4b7e-4bb1-bc0f-7dc7363d100b"
+      }
+    }
+  }
+}

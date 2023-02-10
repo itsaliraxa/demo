@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "993520356335",
+    "project_id": "clinical-study-pal",
+    "storage_bucket": "clinical-study-pal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:993520356335:android:9cf7d7396076dbd55e041a",
+        "android_client_info": {
+          "package_name": "com.clinicalstudypal.clinicalstudypal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "993520356335-bqbvgqhug4cl4nnq0diig5nahg22ogjg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyoP6yoCIVlcsXew2BHz-yW1Fea0jqeSE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "993520356335-bqbvgqhug4cl4nnq0diig5nahg22ogjg.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "993520356335-nag6q38kd3rsn0m40qd98eebuu2qd4dc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.clinicalstudypal.clinicalstudypal"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
